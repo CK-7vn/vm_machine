@@ -1,0 +1,70 @@
+33 - (22 + 17 ) * 2
+100 - (x * 32) / 77 / 28
+print("Hello World")
+// pub enum ExpressioN {
+// Identifier(String),
+// IntegerLiteral(i32),
+// PrefixExpr(PrefixExpr),
+// InfixExpr(InfixExpr),
+// BinaryExpr(BinaryExpr),
+// UnaryExpr(UnaryExpr),
+// }
+// }
+// pub enum Statement {
+// LetStatement(letExpression)
+// ReassignExpr(ReassignExpr)
+// PrintStmt(PrintStmt)
+// }
+// pub struct Ast {
+// program Program
+// }
+// pub struct Program {
+// statements: Vec<Statemenet>
+// }
+// Parser will have AST
+// pub fn parse($mut self) -> Ast {
+// let mut statements = vec![];
+// for {
+// if parser.curr_token == EOF {return}
+// } else {
+// let stmt = self.parsestatement();
+// }
+// }
+// if current token is let parse let if current token is identifier parse reassignment if current
+// token is print parse print
+// fn parseStatement() -> Statement {
+// let, reassign, print
+// loop {
+// match self.current_token {
+// Token::LET => {
+// let letStmt = self.parseLetStatement();
+// }
+// Token::IDENT => {
+// }
+// Token::PRINT => {
+// }
+// }
+// parseLet() -> LetStatement {
+// asserToken(Token::LET)
+// let ident = self.current_token //identifier can be an expression!! Check for this!
+// self.advance();
+// let val = self.parseExpression()
+// LetStatement(LetExpression(ident, val))
+// assert(Token:Eq)
+// self.advance();
+// }
+// parseExpression() -> Expression {
+// match self.current_token {
+// Token::Identifier => {
+// return ident::new(self.current_token)
+// }
+// }
+// }
+// // Identifieir is an expression
+// pub enum Operator {
+// Add,
+// Mul,
+// Div,
+// }
+//
+
